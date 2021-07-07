@@ -50,9 +50,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
 
 .hero {
     height: 800px;
@@ -70,6 +67,10 @@ p {
     margin-left: 20px;
 }
 
+.content p {
+    font-size: 16px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -79,6 +80,7 @@ p {
     float: right;
     margin-left: 25px;
 }
+
 
 /* ------------- Benefits Section ---------------- */
 .benefits {
