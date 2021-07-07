@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* ---------------------- Header ----------------------*/
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +22,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 span {
     color: #d9dcd6;
 }
 
@@ -39,6 +41,8 @@ header div ul {
 header div ul li {
     display: inline-block;
     margin-left: 25px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 a {
@@ -59,6 +63,13 @@ p {
     background-position: center;
 }
 
+/* ------------- Content Section ---------------- */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +80,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* ------------- Benefits Section ---------------- */
 .benefits {
     margin-right: 20px;
     padding: 20px;
